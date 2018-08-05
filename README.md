@@ -15,9 +15,9 @@ Create table advisors (advisor_id int(3), name varchar(256), email varchar(256))
 <br><br> <br>
 ### Insert a value using sql : <br>
 Insert into advisors values (231, ‘Mr. Advisor’, ‘advisor1@email.com’);
-<br><br><br>
-#### <u>IMPORTANT NOTE : Advisor ID needs to match in both tables otherwise record display and insertion will fail through app user interface. Insert as many values are required.<u/>
-
+<br><br>
+#### IMPORTANT NOTE : Advisor ID needs to match in both tables otherwise record display and insertion will fail through app user interface. Insert as many values are required.
+<br/> <br/>
 ## Update DB Connection String Values in getStudentData.php
 $dsn = "mysql:host=172.30.37.79; port=3306 ;dbname=studentdb; charset=utf8"; <br>
 $username = "dbadmin"; <br>
