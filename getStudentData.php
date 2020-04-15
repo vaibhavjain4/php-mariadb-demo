@@ -1,5 +1,5 @@
 <?php
-$dsn = "mysql:host=172.30.37.79; port=3306 ;dbname=studentdb; charset=utf8";
+$dsn = "mysql:host=maridbdb.php-mariadb-project.svc.cluster.local; port=3306 ;dbname=studentdb; charset=utf8";
 $username = "dbadmin";
 $password = "dbpassword";
 
